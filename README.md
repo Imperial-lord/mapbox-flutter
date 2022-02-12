@@ -1,6 +1,6 @@
 # MapBox Flutter
 
-This repository contains code corresponding to the Youtube video - https://youtu.be/ashk0mYLx9c <br>
+This repository contains code corresponding to the Youtube video - https://www.youtube.com/watch?v=oFDx6tLipmw <br>
 If you loved this work then you can support me by liking and sharing the video, and starring this repository! 😇
 
 ## 🤔 So what is this app now?
@@ -37,7 +37,7 @@ That's it. You follow these 5 steps and you should be good to go. Now I would al
 
 Sure. The complete demonstration for this app is done in the Youtube video mentioned above. Other than that, here are some additional resources -
 
-- Medium article (me) - https://absatyaprakash01.medium.com/5-steps-to-secure-your-next-flutter-app-549def2428b3
+- Medium article (me) - https://absatyaprakash01.medium.com/navigation-with-mapbox-for-flutter-apps-313687778686
 - Mapbox documentation - https://docs.mapbox.com/
 - Mapbox directions API playground - https://docs.mapbox.com/playground/directions/
 - A list of all plugins used (thanks to the creators and Flutter community ❤️)
