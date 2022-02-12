@@ -32,3 +32,22 @@ MAPBOX_ACCESS_TOKEN="<YOUR_PUBLIC_ACCESS_TOKEN>"
 ```
 
 That's it. You follow these 5 steps and you should be good to go. Now I would also recommend going through the documentation for [Android](https://docs.mapbox.com/android/maps/guides/install/) and [iOS](https://docs.mapbox.com/ios/maps/guides/install/), because there is a lot more to it, like adding permissions and stuff, which I have already done for you.
+
+## 📚 Any supporting materials?
+
+Sure. The complete demonstration for this app is done in the Youtube video mentioned above. Other than that, here are some additional resources -
+
+- Medium article (me) - https://absatyaprakash01.medium.com/5-steps-to-secure-your-next-flutter-app-549def2428b3
+- Mapbox documentation - https://docs.mapbox.com/
+- Mapbox directions API playground - https://docs.mapbox.com/playground/directions/
+- A list of all plugins used (thanks to the creators and Flutter community ❤️)
+  - Mapbox GL - https://pub.dev/packages/mapbox_gl  
+  - Shared Preferences - https://pub.dev/packages/shared_preferences
+  - Location - https://pub.dev/packages/location
+  - Other than these - carousel_slider, cached_network_image, dio and flutter_dotenv
+
+## 😞 I ran this app, and I have an issue ...
+
+Make sure to watch the video, and that might just clarify your issue, because I have demonstrated all the steps there. Still, if you have anything, just open an issue or comment on the youtube video, or reach out to me and I'll love to help!
+
+Thank you for visiting!
