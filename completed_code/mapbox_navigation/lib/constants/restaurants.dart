@@ -35,7 +35,7 @@ List<Map> restaurants = [
     'id': '0',
     'name': 'Pizza Hut',
     'items': 'Pizza, Sides, Drinks, Deserts',
-    'image': 'https://franchise.pizzahut.com/images/home_intro_img2.jpg',
+    'image': 'https://10619-2.s.cdn12.com/rests/small/w550/h367/103_510330142.jpg',
     'coordinates': {
       'latitude': '37.33219697177026',
       'longitude': '-122.02848706089699',
