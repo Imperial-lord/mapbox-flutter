@@ -1,11 +1,15 @@
 # MapBox Flutter
 
-This repository contains code corresponding to the Youtube video - https://www.youtube.com/watch?v=oFDx6tLipmw <br>
+This repository contains code corresponding to the Youtube videos 
+- https://youtu.be/oFDx6tLipmw
+- https://youtu.be/J1yLPFbjOkE
+
 If you loved this work then you can support me by liking and sharing the video, and starring this repository! 😇
 
 ## 🤔 So what is this app now?
 
-MapBox Flutter demonstrates an implementation of MapBox in a Flutter application, along with its Maps and Navigation SDKs. We will do this by building a simple project involving a hungry you on a bicycle and a set of restaurants and cafes! 😂
+MapBox Flutter demonstrates an implementation of MapBox in a Flutter application, along with its Maps and Navigation SDKs. We will do this by building a simple project involving a hungry you on a bicycle and a set of restaurants and cafes! 😂 
+In the second video, we recreate a complete Uber like experience, to implement turn-by-turn navigation, and in the process also make use of the Mapbox Search APIs, Direction APIs, Reverse Geocoding and Maps SDK.
 
 ## 👩🏻‍💻 Where are the instructions to get the app up and running?
 
@@ -42,9 +46,10 @@ Sure. The complete demonstration for this app is done in the Youtube video menti
 - Mapbox directions API playground - https://docs.mapbox.com/playground/directions/
 - A list of all plugins used (thanks to the creators and Flutter community ❤️)
   - Mapbox GL - https://pub.dev/packages/mapbox_gl  
+  - Flutter Mapbox Navigation - https://pub.dev/packages/flutter_mapbox_navigation
   - Shared Preferences - https://pub.dev/packages/shared_preferences
   - Location - https://pub.dev/packages/location
-  - Other than these - carousel_slider, cached_network_image, dio and flutter_dotenv
+  - Other than these - carousel_slider, cached_network_image, dio and flutter_dotenv, etc.
 
 ## 😞 I ran this app, and I have an issue ...
 
