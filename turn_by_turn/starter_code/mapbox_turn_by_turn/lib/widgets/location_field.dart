@@ -1,15 +1,11 @@
 import 'dart:async';
-import 'dart:convert';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:mapbox_gl/mapbox_gl.dart';
-import 'package:mapbox_turn_by_turn/screens/prepare_ride.dart';
 
-import '../helpers/mapbox_handler.dart';
 import '../helpers/shared_prefs.dart';
-import '../main.dart';
 
 class LocationField extends StatefulWidget {
   final bool isDestination;
@@ -31,25 +27,15 @@ class _LocationFieldState extends State<LocationField> {
 
   _onChangeHandler(value) {
     // Set isLoading = true in parent
-    PrepareRide.of(context)?.isLoading = true;
 
     // Make sure that requests are not made
     // until 1 second after the typing stops
-    if (searchOnStoppedTyping != null) {
-      setState(() => searchOnStoppedTyping?.cancel());
-    }
-    setState(() => searchOnStoppedTyping =
-        Timer(const Duration(seconds: 1), () => _searchHandler(value)));
   }
 
   _searchHandler(String value) async {
     // Get response using Mapbox Search API
-    List response = await getParsedResponseForQuery(value);
 
     // Set responses and isDestination in parent
-    PrepareRide.of(context)?.responsesState = response;
-    PrepareRide.of(context)?.isResponseForDestinationState =
-        widget.isDestination;
     setState(() => query = value);
   }
 
@@ -60,10 +46,6 @@ class _LocationFieldState extends State<LocationField> {
       // Get the response of reverse geocoding and do 2 things:
       // 1. Store encoded response in shared preferences
       // 2. Set the text editing controller to the address
-      var response = await getParsedReverseGeocoding(currentLocation);
-      sharedPreferences.setString('source', json.encode(response));
-      String place = response['place'];
-      widget.textEditingController.text = place;
     }
   }
 

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:mapbox_turn_by_turn/widgets/endpoints_card.dart';
-import 'package:mapbox_turn_by_turn/widgets/search_listview.dart';
 
 import '../widgets/review_ride_fa_button.dart';
 
@@ -73,18 +72,9 @@ class _PrepareRideState extends State<PrepareRide> {
           child: Column(
             children: [
               endpointsCard(sourceController, destinationController),
-              isLoading
-                  ? const LinearProgressIndicator(
-                      valueColor: AlwaysStoppedAnimation<Color>(Colors.white))
-                  : Container(),
-              isEmptyResponse
-                  ? Padding(
-                      padding: const EdgeInsets.only(top: 20),
-                      child: Center(
-                          child: Text(hasResponded ? noResponse : noRequest)))
-                  : Container(),
-              searchListView(responses, isResponseForDestination,
-                  destinationController, sourceController),
+              // Add a Linear Progress Indicator to show loading
+              // Show an appropriate message if no address has been entered, or no results are found
+              // Show a list view of results to select one from
             ],
           ),
         ),
