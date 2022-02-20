@@ -41,7 +41,8 @@ That's it. You follow these 5 steps and you should be good to go. Now I would al
 
 Sure. The complete demonstration for this app is done in the Youtube video mentioned above. Other than that, here are some additional resources -
 
-- Medium article (me) - https://absatyaprakash01.medium.com/navigation-with-mapbox-for-flutter-apps-313687778686
+- Medium article 1 - https://absatyaprakash01.medium.com/navigation-with-mapbox-for-flutter-apps-313687778686
+- Medium article 2 - https://absatyaprakash01.medium.com/turn-by-turn-navigation-with-mapbox-16f874567b3c
 - Mapbox documentation - https://docs.mapbox.com/
 - Mapbox directions API playground - https://docs.mapbox.com/playground/directions/
 - A list of all plugins used (thanks to the creators and Flutter community ❤️)
